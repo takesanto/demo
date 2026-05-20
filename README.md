@@ -36,3 +36,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # demo
 # demo
+
+## npm install なしで動かす簡易モック
+
+`mock/` 配下に、依存なしの HTML/CSS/JavaScript モックを追加しています。
+
+```bash
+cd mock
+python3 -m http.server 4173
+```
+
+ブラウザで `http://localhost:4173` を開くと動作確認できます。
